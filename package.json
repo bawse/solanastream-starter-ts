@@ -1,0 +1,26 @@
+{
+  "name": "solanastream-starter-ts",
+  "version": "1.0.0",
+  "description": "TypeScript starter template for Solana data streams via NATS with JWT/NKey authentication",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "clean": "rm -rf dist",
+    "watch": "tsc --watch"
+  },
+  "keywords": ["solana", "nats", "typescript", "data-stream", "jwt", "nkey"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "nats": "^2.20.0",
+    "winston": "^3.11.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "typescript": "^5.2.2",
+    "ts-node": "^10.9.1"
+  }
+} 
